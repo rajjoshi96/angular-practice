@@ -1,0 +1,15 @@
+span{
+    align-items: center;
+    color: cadetblue;
+    border:1px;
+    margin:2px;
+    font-weight: 300;
+    text-align: center;
+    height: 200;
+    width:600;
+}
+h4{
+    color: darkgreen;
+    font-weight: 400;
+    font-family: cursive;
+}
