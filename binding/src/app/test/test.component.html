@@ -1,2 +1,49 @@
-<p>test works!</p>
-<h2> Author: Raj Joshi</h2>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class='container-whole'>
+            <div class='container-nav'>
+                <div class='conatainer-nav-wrapper'>
+                    <div class='container-nav-wrapper-header'>
+                        <h1>Innovation Website</h1>
+                        <div class='container-nav-wrapper-heading-list'>
+                            <ul class='heading-list'>
+                                <li>Home</li>
+                                <li>Profile</li>
+                                <li>Settings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Trying it using inline template</h1>
+        <h2>Welcome !! {{name}}</h2>
+
+        <h2>Trying interpolation</h2>
+        <p> The calculation of 2+2 is {{2+2}}</p>
+        <p>Length of my name is {{name.length}} and the upper case is {{name.toUpperCase()}}</p>
+        <h3>Look at this amazing site {{"link " + siteUrl}}</h3>
+        <p>The weird multiplication is mul: {{calculation()}}</p>
+
+
+        <h2>Property binding example</h2>
+        <input type="text" value="Code-Evolution" [id]="myID" [disabled]="isDisabled">
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+
