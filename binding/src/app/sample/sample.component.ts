@@ -24,7 +24,7 @@ export class SampleComponent implements OnInit {
     this.greeting="Whoopee";
   }
 
-  onlog(value: any){
+  on_log(value: any){
     console.log(value);
   }
 }

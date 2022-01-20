@@ -12,3 +12,4 @@ Topics Learned so far:
     6. Style Binding
     7. Event Binding
     8. Template Reference
+    9. Two way data binding yet to be done
