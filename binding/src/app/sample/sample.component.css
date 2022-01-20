@@ -1,0 +1,15 @@
+h1{
+  color: dodgerblue;
+}
+.text-success{
+  color: forestgreen;
+}
+.text-danger{
+  color:red;
+}
+
+
+h2::after{
+  color:teal;
+  content:" ---------";
+}

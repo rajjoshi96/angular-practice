@@ -1,0 +1,25 @@
+<h1>Learning {{course_name}}</h1>
+
+<h2>Class Binding Example</h2>
+
+<h3 class="text-success">Code-Evolution</h3>
+
+<h3 [class]="successClass">Class binding</h3>
+
+<h3 [class.text-danger]="hasError">has Error is {{hasError}}</h3>
+
+
+<h2 >Style binding Example</h2>
+<h3 [style.color]="Highlight_color">Color is highlighted</h3>
+<h3 [ngStyle] = "titleStyles">title style</h3>
+<h3 [style.color]="hasError ? 'orange' : 'green'">Styles</h3>
+
+
+<h2> Event handling {{course_name}}</h2>
+<button (click)="onClick()">Greet</button>
+{{greeting}}
+
+
+<h2>Template Reference Variable</h2>
+<input #myinput type="text">
+<button (click)="onlog(myinput.value)">Log</button>
